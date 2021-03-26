@@ -26,6 +26,7 @@ namespace Metody_Git2
             DateTime plusrok = datum.AddYears(1);
             return plusrok;
         }
+        // Metoda je napsana spravne
         private void button1_Click(object sender, EventArgs e)
         {
             DateTime datum = dateTimePicker1.Value;
